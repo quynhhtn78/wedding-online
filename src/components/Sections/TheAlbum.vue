@@ -8,7 +8,7 @@ import { ref, onMounted } from 'vue';
 const totalImage = 29;
 const albumImages = ref([]);
 for (let index = 0; index < totalImage; index++) {
-    albumImages.value.push(`/src/assets/images/album/hinh-${index + 1}.jpg`);
+    albumImages.value.push( new URL(`/src/assets/images/album/hinh-${index + 1}.jpg`, import.meta.url).href  );
 };
 
 onMounted(() => {
