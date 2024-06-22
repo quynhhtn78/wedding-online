@@ -4,15 +4,16 @@ import DashboardView from '../views/DashboardView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: HomeView
     },
     {
       path: '/dashboard',
-      name: 'dashboard',
+      name: 'Dashboard',
       component: DashboardView
     }
   ]
