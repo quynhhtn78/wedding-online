@@ -46,7 +46,7 @@ let screenHeight = ref(window.innerHeight);
 @bottom-height: 150px;
 
 .welcome-section {
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
   max-height: 100%;
   max-width: 100%;

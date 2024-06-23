@@ -106,7 +106,7 @@ function getTotalComeInGuests() {
     padding: 16px 16px 80px;
 
     * {
-        font-family: 'Inter';
+        font-family: "Inter", sans-serif;
     }
 
     .is-loading {

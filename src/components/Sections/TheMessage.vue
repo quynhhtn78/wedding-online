@@ -68,7 +68,7 @@
         align-items: end;
 
         .content {
-            font-family: 'Inter';
+            font-family: "Inter", sans-serif;
             font-weight: 400;
             font-size: 16px;
             line-height: 170%;
@@ -84,7 +84,7 @@
             align-items: center;
             
             .subtitle {
-                font-family: 'Inter';
+                font-family: "Inter", sans-serif;
                 font-weight: 600;
                 font-size: 16px;
                 text-align: center;

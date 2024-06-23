@@ -44,10 +44,12 @@ const scrollTo = (elementId) => {
         flex: 1;
 
         &.confirm-come-in {
+          font-weight: 600;
             background-color: @blue-tiffany;
         }
 
         &.send-wish {
+          font-weight: 600;
             background-color: @green-pistachio;
         }
     }
