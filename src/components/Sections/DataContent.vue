@@ -139,10 +139,13 @@ function getTotalComeInGuests() {
 
         .wish-card {
             width: calc(~"50% - 20px");
-            max-width: 300px;
             background-color: white;
             border-radius: 16px;
             padding: 4px;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
 
             .header {
                 padding: 8px 16px;
@@ -152,9 +155,6 @@ function getTotalComeInGuests() {
                 border-bottom: 1px solid @light-gray;
                 
                 p {
-                    &:nth-child(1) {
-                    }
-
                     &:nth-child(2) {
                         font-weight: 600;
                     }

@@ -7,7 +7,7 @@
             <img src="@/assets/images/images-card.png" />
         </div>
         <div class="message-content">
-            <p class="content">Ngày 14/7 đến đây là ngày trọng đại nhất trong cuộc đời em khi khi sắp chính thức bước sang trang mới . Em rất trân quý và rất mong quý bạn, quý anh chị khi nhận được tấm thiệp này đã yêu thương và dành ít thời gian đến chung vui với vợ chồng em trong ngày vui này.  Vì tình yêu mà em và người ấy đã quyết định kết hôn sau khi đã hiểu nhau suốt thời gian qua. Em rất mong được nhìn thấy nụ cười và ánh mắt cùng lời chúc phúc của quý bạn và quý anh chị trong ngày vui của em.</p>
+            <p class="content">Ngày 14/7 đến đây là ngày trọng đại nhất trong cuộc đời em khi sắp chính thức bước sang trang mới. Em rất trân quý và rất mong quý bạn, quý anh chị khi nhận được tấm thiệp này đã yêu thương và dành ít thời gian đến chung vui với vợ chồng em trong ngày vui này.  Vì tình yêu mà em và người ấy đã quyết định kết hôn sau khi đã hiểu nhau suốt thời gian qua. Em rất mong được nhìn thấy nụ cười và ánh mắt cùng lời chúc phúc của quý bạn và quý anh chị trong ngày vui của em.</p>
             <div class="signature">
                 <p class="subtitle">Thương mến và cảm ơn <span><img src="@/assets/images/heart-icon.png"/></span></p>
                 <div>
