@@ -94,6 +94,10 @@ let isSubmitDisabled = computed(() => {
         display: flex;
         justify-content: center;
         padding: 40px 32px 16px;
+      
+      > img {
+        width: 289px;
+      }
     }
 
     .form {

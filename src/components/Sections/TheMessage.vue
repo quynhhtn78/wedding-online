@@ -60,6 +60,10 @@
         display: flex;
         justify-content: center;
         margin-top: 16px;
+      
+      > img {
+        width: 220px;
+      }
     }
 
     .message-content {

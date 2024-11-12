@@ -68,11 +68,9 @@ let isSubmitDisabled = computed(() => {
         </div>
     </div>
   <div class="bank-info-section">
-    <h4>Bạn có muốn gửi tiền mừng đến cô dâu và chú rễ?</h4>
+    <h4>Hòm thư yêu thương</h4>
     <div class="bank-info">
       <img src="@/assets/images/bank-qr.png"/>
-      <h4>Số tài khoản: <span>050114086425 (SACOMBANK)</span></h4>
-      <h4>Chủ tài khoản: <span>DUONG NGUYEN QUE ANH</span></h4>
     </div>
   </div>
 </template>
