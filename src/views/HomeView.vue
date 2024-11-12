@@ -21,12 +21,13 @@ const scrollTo = (elementId) => {
 <template>
   <main>
     <TheWelcome />
+    <TheInvitation/>
     <div class="action-buttons">
         <button class="btn-block confirm-come-in" @click="scrollTo('comfirmForm')">Xác nhận tham dự</button>
         <button class="btn-block send-wish" @click="scrollTo('wishForm')">Gửi lời chúc</button>
     </div>
     <TheIntroduction/>
-    <TheInvitation/>
+    
     <TheMessage/>
     <TheConfirmForm ref="confirmFormRefEl"/>
     <TheWishForm ref="wishFormRefEl"/>
@@ -39,18 +40,19 @@ const scrollTo = (elementId) => {
     display: flex;
     gap: 16px;
     padding: 16px;
-
+    background-color: #F6F5F3;
+  
     .btn-block {
         flex: 1;
 
         &.confirm-come-in {
           font-weight: 600;
-            background-color: @blue-tiffany;
+            background-color: #E5E794;
         }
 
         &.send-wish {
           font-weight: 600;
-            background-color: @green-pistachio;
+            background-color: #FEE0EC;
         }
     }
 }

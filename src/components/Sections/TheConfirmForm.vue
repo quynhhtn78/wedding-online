@@ -52,18 +52,18 @@ let isSubmitDisabled = computed(() => {
         <div class="form" id="comfirmForm" :class="{ 'is-loading': isLoading, 'is-submited': isSubmited }">
             <Loading v-if="isLoading"/>
             <h4>Xác nhận tham dự</h4>
-            <div class="input-text dark">
+            <div class="input-text">
                 <label for="guest-name">Tên bạn</label>
                 <input class="input" type="text" v-model="name" />
             </div>
 
             <div class="radio-buttons">
-                <label class="radio-box dark">
+                <label class="radio-box">
                     <input type="radio" value="true" name="come-in" v-model="comeIn" />
                     <span class="design"></span>
                     <span class="text">Sẽ tham dự</span>
                 </label>
-                <label class="radio-box dark">
+                <label class="radio-box">
                     <input type="radio" value="false" name="come-in" v-model="comeIn" />
                     <span class="design"></span>
                     <span class="text">Không thể tham dự</span>
@@ -83,8 +83,13 @@ let isSubmitDisabled = computed(() => {
 <style lang="less" scoped>
 .confirm-form-section {
     padding-top: 16px;
-    background-color: @dark-gray;
+    background-color: #fff2f1;
 
+  h4 {
+    color: #ffaaa9;
+    font-weight: 600;
+  }
+  
     .images-card {
         display: flex;
         justify-content: center;

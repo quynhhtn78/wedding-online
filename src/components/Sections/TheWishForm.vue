@@ -48,12 +48,12 @@ let isSubmitDisabled = computed(() => {
         <div class="form" :class="{ 'is-loading': isLoading, 'is-submited': isSubmited }">
             <Loading v-if="isLoading"/>
             <h4>Bạn có muốn gửi lời chúc đến cô dâu và chú rễ?</h4>
-            <div class="input-text dark">
+            <div class="input-text">
                 <label for="guest-name">Lời chúc từ</label>
                 <input class="input" type="text" placeholder="Nhập tên bạn" v-model="name"/>
             </div>
             
-            <div class="input-text dark">
+            <div class="input-text">
                 <label for="guest-wish">Nội dung</label>
                 <textarea name="guest-wish" rows="6" placeholder="Bạn muốn nhắn gửi gì đến cô dâu và chú rễ?" v-model="message"></textarea>
             </div>
@@ -67,21 +67,31 @@ let isSubmitDisabled = computed(() => {
             </div>
         </div>
     </div>
+  <div class="bank-info-section">
+    <h4>Bạn có muốn gửi tiền mừng đến cô dâu và chú rễ?</h4>
+    <div class="bank-info">
+      <img src="@/assets/images/bank-qr.png"/>
+      <h4>Số tài khoản: <span>050114086425 (SACOMBANK)</span></h4>
+      <h4>Chủ tài khoản: <span>DUONG NGUYEN QUE ANH</span></h4>
+    </div>
+  </div>
 </template>
 <style lang="less" scoped>
 .wish-form-section {
-    background-color: @light-gray;
-
+    background-color: #fae2de;
+    border: 8px solid white;
+  
     .form {
         padding: 32px 32px 56px;
         
         h4 {
             font-family: 'Playfair Display', serif;
-            font-weight: 400;
+            font-weight: 600;
             font-size: 20px;
             line-height: 27px;
             text-align: left;
             margin-bottom: 24px;
+            color: #373B40;
         }
     }
     .btn-submit {
@@ -90,5 +100,61 @@ let isSubmitDisabled = computed(() => {
         font-weight: 600;
         text-transform: capitalize;
     }
+}
+
+.bank-info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 16px;
+  background-color: #fddd61;
+  border: 8px solid white;
+  
+  h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .bank-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    > img {
+      width: 240px;
+      height: 240px;
+      border-radius: 10px;
+      margin-bottom: 24px;
+    }
+    
+    > h4 {
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 16px;
+      
+      > span {
+        display: block;
+        background-color: #ffe2ec;
+        color: #2c3a3a;
+        padding: 4px;
+        border-radius: 4px;
+        //background: #596C6F;
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        //color: #FFFFFF;
+      }
+    }
+  }
 }
 </style>

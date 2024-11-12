@@ -1,13 +1,13 @@
 <template>
     <div class="footer-section">
         <p>Thank you</p>
-        <p>Gia Long & Hải Đường</p>
+        <p>Hoàng Vinh & Quế Anh</p>
     </div>
 </template>
 <style lang="less" scoped>
 .footer-section {
     padding: 64px 32px;
-    background-color: @darker-gray;
+    background-color: #deefee;
 
     p {
         font-family: 'SVN-Saint Monica', serif;
@@ -21,8 +21,8 @@
         }
 
         &:nth-child(2) {
-            font-size: 24px;
-            color: @light-mint;
+            font-size: 18px;
+            color: #807771;
         }
     }
 }

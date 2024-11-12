@@ -67,17 +67,6 @@ let screenHeight = ref(window.innerHeight);
 <style lang="less" scoped>
 @bottom-height: 150px;
 
-// @keyframes archery-moving {
-//   0% {
-//     top: 200px;
-//     left: -60px;
-//   }
-//   100% {
-//     top: -40px;
-//     left: 200px;
-//   }
-// }
-
 .welcome-section {
   height: 100dvh;
   width: 100vw;
